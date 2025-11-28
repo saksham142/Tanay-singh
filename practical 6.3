@@ -1,0 +1,7 @@
+
+1) Utt = 9 Uxx u(x,0)=0, u(x,0)=x^3, ux (0,t)=0,x>0,t>0
+
+wave = {D[u[x, t], {t, 2}] 9*D[u[x, t], {x, 2)] = 0, u(x, 0] == 0, 
+Derivative [0, 1] [u] [x, 0] == x^3, Derivative [1, 0] [u] [0, t] == 0} 
+sol = u(x, t). NDSolve [wave, u[x, t], {x, 0, 1}, {t, 0, 1}]
+Plot3D [sol, (x, 0, 1}, {t, 0, 1}]
