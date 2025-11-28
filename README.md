@@ -31,4 +31,4 @@ practical 5
 
 practical 6.1
 
-![image_alt](
+![image_alt](https://github.com/saksham142/Tanay-singh/blob/a1ffc8d2d3c8e86b86f876936e547ba136d2aaa9/Screenshot%202025-11-28%20174721.png)
