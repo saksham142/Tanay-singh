@@ -1,0 +1,7 @@
+1. Utt = Uxx, u(x,0)=0, ut (x, 0) = x2, xeR, t>0
+
+In[2]:= DSolve [D[u[x, t], {t, 2}] -D[u[x, t], {x, 2}] = 0, u(x, t), (x, t)]
+da [c_, f_, _, x_, t_] := 1/2* ((f/. x + x + c *t) + (f/. x + x-c*t)) + (1/(2*c)) *
+Integrate [g, (x, x-ct, x+ct}]
+da [1, 0, x^2, x, t]
+Plot3D [%, {t, 0, 8), (x, -8, 8}]
