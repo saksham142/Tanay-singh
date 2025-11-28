@@ -17,3 +17,8 @@ practical 3
 
 
 ![image alt](https://github.com/saksham142/Tanay-singh/blob/c00b933fc53027bb76f34c7a3f30f199106da081/Screenshot%202025-11-28%20141113.png)
+
+practical 4 
+
+
+![image alt](
