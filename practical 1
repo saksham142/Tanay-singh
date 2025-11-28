@@ -1,0 +1,14 @@
+
+1) Ux - Uy =1
+
+In[1] DSolve [D[u[x, y), x] - D[u(x, y), y] = 1, u(x, y), (x, y)]
+
+
+
+2) (1+x^2) Ux +Uy =0
+
+
+
+In[2]:= Clear [u, x, y]
+In[3]:= DSolve[ (1 + x^2) * D[u [x, y] x] + D[u[x, y], y] == 0, u(x, y), (x, y}]
+
