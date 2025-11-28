@@ -1,0 +1,10 @@
+Practical- 3 Plot the chracteristics of the first order partial differential Equation
+
+Plot the chracteristics of ux - uy = 1 
+
+ 
+DSolve [D [u [x, y], x] - D [u [x, y], y] == 1, u [x, y], {x, y}]
+f0 = ContourPlot3D [u - x, {x, 0, 1}, {y, 0, 1}, {u, 0, 1}, AxesLabel → {x, y, u}]
+f1 = ContourPlot3D [x + y, {x, 0, 1}, {y, 0, 1}, {u, 0, 1}, AxesLabel → {x, y, u}]
+Show [f0, f1]
+{{u [x, y] → x + C [1] [x + y]}}
