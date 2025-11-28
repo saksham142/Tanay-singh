@@ -1,0 +1,7 @@
+
+1) Pt +e^t px =2p, initial condition, p(x,0)=1+sin^2
+
+In[30]:= traffic = {D[p(x, t), t] + Exp[t] D [p[x, t], x] = 2 *p[x, t], p[x, 0] == 1+ (Sin [x])^2} 
+sol = DSolve [traffic, p[x, t], (x, t)]
+psol= p[x, t]/. sol
+Plot3D = [psol, (x, 0, 4}, {t, 0, Pi), AxesLabel→ (x, t, p}]
