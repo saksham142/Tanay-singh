@@ -1,0 +1,6 @@
+1.  ut = (1/2) uxx, u(x,0) = sin²x, u(0,t)=0, u(π,t) = 0, 0<x<π, t>0
+
+heat = {D[u [x, t], t] - 0.5* D [u [x, t], {x, 2}] = 0,
+u [x, 0] == (Sin [x]) ^2, u [0, t] = 0, u[Pi, t] == 0}
+sol = u [x, t) /. NDSolve [heat, u [x, t], {x, 0, Pi}, {t, 0, 4}]
+Plot3D [sol, {t, 0, 4}, {x, 0, Pi), AxesLabel → {x, t, u}]
