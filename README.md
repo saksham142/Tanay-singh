@@ -5,4 +5,7 @@ practical 1
 practical 2 
 
 
+![image alt](https://github.com/saksham142/Tanay-singh/blob/317069597e2b3ccfbea87210c75039e858858b16/Screenshot%202025-11-28%20140349.png)
+
+
 ![image alt](
