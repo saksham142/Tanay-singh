@@ -1,0 +1,10 @@
+
+SOLUTION OF CAUCHY PROBLEM
+1, uₓ +x (uᵧ)= y, u(0, y) = y²
+
+sol = DSolve [{D[u [x, y], x] + x*D[u [x, y], y] = y, u [0, y] = y^2}, u[x, y], {x, y}]
+p1 = Plot3D [u(x, y) /. sol, {x, -3, 3}, {y, -5, 5}, AxesLabel → {x, y, u}]
+p2 = ParametricPlot3D [{0, y, y^2}, {y, -5, 5},
+AxesLabel → {x, y, u}, PlotStyle → {Green, Thickness [0.03]}]
+Show [p1, p2]
+{{u[x, y] → 1/12 (-4 x³ + 3 x⁴ + 12 x y - 12 x² y + 12 y²)}}
