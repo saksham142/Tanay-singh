@@ -1,0 +1,6 @@
+1. Utt=Uxx, u(x, 0) = 0, ut(x, 0) = x2, xeR, t>0
+
+In[-]= wave = {D[u[x, t], {t, 2}] - D[u[x, t], {x, 2}] == 0, 
+u[x, 0] == 0, Derivative [0, 1] [u] [x, 0] == x2}
+sol= u[x, t] /. NDSolve [wave, u[x, t], {x, -3, 3}, {t, 0, 3}]
+Plot3D [sol, (t, 0, 1), (x, -1, 1}]
