@@ -1,0 +1,7 @@
+1. Ut 16 Uxxi u(x,0)= sinx, u(x, 0) = x2; u(0,t)=0, x>0,t>0
+
+In[1] wave = (D[u(x, t), (t, 2}] - 16 * D[u[x, t], {x, 2}] == 0, 
+u[x, 0] == Sin [x], Derivative [0, 1] [u] [x, 0] == x^2,
+u[0, t] == 0}
+sol = {u[x, t] /. NDSolve [wave, u[x, t), (x, 0, 1}, {t, 0, 1}]} 
+Plot3D[sol, (x, 0, 1}, {t, 0, 1}]
