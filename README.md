@@ -27,3 +27,8 @@ practical 5
 
 
 ![image_alt](https://github.com/saksham142/Tanay-singh/blob/c8dee616daf7b81003bfe7918728e460dacc4569/Screenshot%202025-11-28%20173907.png)
+
+
+practical 6.1
+
+![image_alt](
